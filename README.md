@@ -1,11 +1,11 @@
 
-# 🔄 Customer Churn Prediction App
+## 🔄 Customer Churn Prediction App
 
-An interactive machine learning web application that predicts whether a telecom customer is likely to churn based on key service and demographic inputs. Built using **Streamlit** and trained using **XGBoost**, the app helps visualize churn risk in real time with a clean, user-friendly interface.
+An interactive machine learning web application that predicts whether a telecom customer is likely to churn based on customer atrributes. Built using **Streamlit** and trained using **XGBoost**, the app helps visualize churn risk in real time with a clean, user-friendly interface.
 
 ---
 
-## 🚀 Features
+### 🚀 Features
 
 - 📥 Real-time form input for customer attributes
 - 📊 Predicts churn probability instantly (Yes/No)
@@ -14,23 +14,18 @@ An interactive machine learning web application that predicts whether a telecom 
 
 ---
 
-## 🔢 Input Fields
+### 🔢 Input Fields
 
-- Gender  
-- Senior Citizen  
-- Partner  
-- Dependents  
+- Credit Score  
+- Age 
 - Tenure  
-- Phone Service  
-- Internet Service  
-- Contract Type  
-- Monthly Charges  
-- Total Charges  
-- Payment Method  
+- Balance 
+- No of Products  
+- Estimated Salary 
 
 ---
 
-## 📁 Project Structure
+### 📁 Project Structure
 
 ```
 Churn_Prediction_App/
@@ -43,7 +38,7 @@ Churn_Prediction_App/
 
 ---
 
-## 🛠 Tech Stack
+### 🛠 Tech Stack
 
 - Python
 - Streamlit
@@ -54,7 +49,7 @@ Churn_Prediction_App/
 
 ---
 
-## ⚙️ How to Run Locally
+### ⚙️ How to Run Locally
 
 1. Clone the repo
 
@@ -85,14 +80,3 @@ streamlit run app.py
 - Tuned XGBoost hyperparameters to improve accuracy from **78% to 85%**
 - Visualized top predictors using feature importance
 
----
-
-## 🧑‍💻 Author
-
-Built with ❤️ by [Reena Pokhariya](https://github.com/Rpokhariya)
-
----
-
-## 🪄 License
-
-MIT License — free to use, adapt, and share with credit to the author.
